@@ -1,7 +1,18 @@
 package com.ghn1712.zxventures.pdv;
 
-public class Address {
+import com.mongodb.client.model.geojson.Point;
+
+public class Address implements GeoArea<Point>{
 	String type;
-	double[] coordinates;
+	Point coordinates;
+	
+	@Override
+	public String returnType() {
+		return this.type;
+	}
+	@Override
+	public Point returnCoordinates() {
+		return this.coordinates;
+	}
 	
 }

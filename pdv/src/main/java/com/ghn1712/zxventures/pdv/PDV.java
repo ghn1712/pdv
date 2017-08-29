@@ -7,7 +7,7 @@ public class PDV {
 	private String tradingName;
 	private String ownerName;
 	private String document;
-	private CoverageArea coverageArea;
+	private CoverageAreaMultiPolygonImpl coverageArea;
 	private Address address;
 
 }
