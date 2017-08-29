@@ -1,2 +1,12 @@
 *.class
 .gradle/
+RemoteSystemsTempFiles
+.metadata
+.classpath
+.project
+pdv/.settings/*
+.recommenders/
+.settings/
+build/
+pdv/bin
+
